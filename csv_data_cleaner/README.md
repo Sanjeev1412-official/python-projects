@@ -12,21 +12,21 @@ Real-world CSVs often contain:
 This project demonstrates building a **defensive cleaning pipeline** that converts unreliable inputs into a consistent output.
 
 ## What it does
-Implemented in [`clean_csv`](csv_data_cleaner/cleaner.py) within [csv_data_cleaner/cleaner.py](csv_data_cleaner/cleaner.py):
+Implemented in `clean_csv` within `csv_data_cleaner/cleaner.py`:
 
-1. **Loads + repairs rows** with unexpected comma splits via [`load_csv`](csv_data_cleaner/cleaner.py)  
-2. Normalizes headers via [`clean_column_names`](csv_data_cleaner/cleaner.py)
-3. Trims whitespace via [`trim_whitespace`](csv_data_cleaner/cleaner.py)
-4. Normalizes text fields via [`normalize_text`](csv_data_cleaner/cleaner.py)
-5. Cleans numeric columns via [`clean_numeric`](csv_data_cleaner/cleaner.py)
-6. Parses mixed date formats via [`normalize_dates`](csv_data_cleaner/cleaner.py)
-7. Fills missing values via [`handle_missing`](csv_data_cleaner/cleaner.py)
-8. Removes duplicates via [`remove_duplicates`](csv_data_cleaner/cleaner.py)
+1. **Loads + repairs rows** with unexpected comma splits via `load_csv`.  
+2. Normalizes headers via `clean_column_names`.
+3. Trims whitespace via `trim_whitespace`
+4. Normalizes text fields via `normalize_text`.
+5. Cleans numeric columns via `clean_numeric`.
+6. Parses mixed date formats via `normalize_dates`.
+7. Fills missing values via `handle_missing`.
+8. Removes duplicates via `remove_duplicates`.
 9. Writes cleaned output to CSV
 
 ## Input / Output
-- **Input:** [csv_data_cleaner/data.csv](csv_data_cleaner/data.csv)
-- **Output:** [csv_data_cleaner/clean_data.csv](csv_data_cleaner/clean_data.csv)
+- **Input:** `csv_data_cleaner/data.csv`
+- **Output:** `csv_data_cleaner/clean_data.csv`
 
 Expected output columns (after cleaning):
 - `name` (Title Case)
@@ -37,7 +37,6 @@ Expected output columns (after cleaning):
 
 ## Quick start
 ### Requirements
-- Python 3.10+
 - `pandas`, `numpy`
 
 ### Run
@@ -45,14 +44,13 @@ Expected output columns (after cleaning):
 python csv_data_cleaner/cleaner.py
 ```
 
-This runs [`clean_csv`](csv_data_cleaner/cleaner.py) against [csv_data_cleaner/data.csv](csv_data_cleaner/data.csv) and writes [csv_data_cleaner/clean_data.csv](csv_data_cleaner/clean_data.csv).
 
 ## Project structure
 ```text
 csv_data_cleaner/
   cleaner.py        # cleaning pipeline
   data.csv          # sample messy input
-  clean_data.csv    # cleaned output (generated)
+  clean_data.csv    # cleaned output 
   README.md
 ```
 
