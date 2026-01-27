@@ -61,6 +61,13 @@ csv_data_cleaner/
 - **Type-safe conversions:** numeric parsing uses `to_numeric(..., errors="coerce")` in [`clean_numeric`](csv_data_cleaner/cleaner.py); date parsing uses tolerant conversion in [`normalize_dates`](csv_data_cleaner/cleaner.py).
 - **Missing-value strategy:** numeric columns filled with median; text columns filled with mode in [`handle_missing`](csv_data_cleaner/cleaner.py).
 
+## Learning outcomes
+
+- Building a defensive ETL-style pipeline: load/repair → normalize → validate → export
+- Cleaning messy real-world data with Pandas (types, missing values, duplicates)
+- Writing resilient parsers that handle malformed rows without crashing
+- Designing reusable, testable helper functions for each cleaning stage
+
 ## Reasonable next improvements
 - Add a CLI (`--input`, `--output`) instead of hardcoded paths in [csv_data_cleaner/cleaner.py](csv_data_cleaner/cleaner.py)
 - Add unit tests for parsing/repair edge cases (extra commas, missing columns, mixed date formats)

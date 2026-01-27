@@ -1,0 +1,5 @@
+# Workspace requirements
+# Third-party deps are only needed for csv_data_cleaner/cleaner.py
+
+numpy
+pandas

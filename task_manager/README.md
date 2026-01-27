@@ -16,6 +16,15 @@ A practical **task management** project showcasing clean Python structure, CRUD 
 
 ---
 
+## Learning outcomes
+
+- Implementing CRUD workflows and status transitions in Python
+- Persisting application state (file or DB) and handling read/write safely
+- Modeling and validating data (required fields, allowed values, date parsing)
+- Structuring code for testability (separating I/O from business logic)
+
+---
+
 ## Features
 - Create tasks with fields like `title`, `description`, `due_date`, `priority`, `status` *(edit to match your model)*
 - List/filter/sort tasks (e.g., by status, priority, due date)
