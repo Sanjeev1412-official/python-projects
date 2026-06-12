@@ -72,7 +72,7 @@ Result: -10.0 celsius = 14.0000 fahrenheit
 ## 👨‍💻 Author
 
 **Sanjeev1412-official**
-- Email: [EMAIL_ADDRESS]
+- Email: [EMAIL_ADDRESS](sanjeevsnair1412official@gmail.com)
 - GitHub: [Sanjeev1412-official](https://github.com/Sanjeev1412-official)
 
 ---
