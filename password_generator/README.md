@@ -66,7 +66,7 @@ Generated Password: K)9jL3j,%hU6aX@q
 ## 👨‍💻 Author
 
 **Sanjeev1412-official**
-- Email: [EMAIL_ADDRESS](sanjeevsnair1412official@gmail.com)
+- Email: sanjeevsnair1412official@gmail.com
 - GitHub: [Sanjeev1412-official](https://github.com/Sanjeev1412-official)
 
 ---
